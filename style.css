@@ -1,0 +1,39 @@
+body{
+	
+	background-color: blue;
+	margin: 0;
+}
+	
+p{
+	text-decoration: bold;
+	text-align: center;
+}
+.photo{
+	width: 150px;
+	height: 200px;
+	border:solid 1px black;
+	border-radius:15px; 
+}
+#mosaique{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#titre{
+	background-image: url("img/banniere.jpg");
+	height: 200px;
+}
+#fin{
+	width: 400px;
+	height: 350px;
+}
+#bouton{
+	display: flex;
+}
+#chronotime {
+	display: flex;
+	justify-content: center;
+	color: red;
+}
+
